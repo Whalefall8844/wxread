@@ -17,7 +17,7 @@ PUSHPLUS_TOKEN = "" or os.getenv("PUSHPLUS_TOKEN")
 TELEGRAM_BOT_TOKEN = "" or os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = "" or os.getenv("TELEGRAM_CHAT_ID")
 # wxpusher推送时需填
-WXPUSHER_SPT = "SPT_Q6xeqT3dhxqqu3btoNRG3IyIehf0" or os.getenv("WXPUSHER_SPT")
+WXPUSHER_SPT = "" or os.getenv("WXPUSHER_SPT")
 # read接口的bash命令，本地部署时可对应替换headers、cookies
 curl_str = os.getenv('WXREAD_CURL_BASH')
 
