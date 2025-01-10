@@ -8,7 +8,7 @@ import re
 """
 
 # 阅读次数 默认120次/60分钟
-READ_NUM = int(os.getenv('READ_NUM') or 12)
+READ_NUM = int(os.getenv('READ_NUM') or 1)
 # 需要推送时可选，可选pushplus、wxpusher、telegram
 PUSH_METHOD = "" or os.getenv('PUSH_METHOD')
 # pushplus推送时需填
